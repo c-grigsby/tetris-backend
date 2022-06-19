@@ -1,0 +1,22 @@
+[
+  {
+    "id": 123,
+    "player": "Aspect",
+    "score": "100"
+  },
+  {
+    "id": 124,
+    "player": "Kraken",
+    "score": "120"
+  },
+  {
+    "id": 125,
+    "player": "O'Doyle",
+    "score": "140"
+  },
+  {
+    "id": "3f1b8de6-dc03-41ea-8b5b-7e8c574c9316",
+    "player": "John",
+    "score": "270"
+  }
+]
