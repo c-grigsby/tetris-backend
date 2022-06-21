@@ -7,22 +7,24 @@ This server-side application is the backend for the I Just Want To Play Tetris w
 - Developed with Express.js
 - Persists player scoreboard data via JSON file
 
-## Getting Started
-
-- Installing dependencies
+## Installation
 
 ```
 $ npm install
 ```
 
-- To run the development server, navigate to the 'src' directory
+## Running the App
 
-```
+```bash
+# development
 $ npm run dev
+
+# production mode
+$ npm run start
 ```
+## Configuring
 
-#### This application utilizes a config.env file to host environment variables within the 'src/config' directory. To utilize configure:
+ This application utilizes dotenv to host environment variables. Add a file named config.env to the 'src/config' directory and include:
 
-- NODE_ENV=development (*or production*)
-- PORT=3000 (*or port of choice*}
-
+- NODE_ENV=development (_or production_)
+- PORT=3000 (_or port of choice_}
