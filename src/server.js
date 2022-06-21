@@ -1,6 +1,6 @@
 // @packages
-const express = require('express');
 const dotenv = require('dotenv');
+const express = require('express');
 // @routes
 const scoreboard = require('./routes/scoreboard');
 // @env vars
@@ -8,14 +8,13 @@ dotenv.config({ path: './config/config.env' });
 
 const app = express();
 
-// Body Parser Middleware
+// body parser middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Mount Routers
+// mount routers
 app.use('/api/v1/scoreboard', scoreboard);
 
-// Home
 app.get('/', (_req, res) => {
   res
     .status(200)
